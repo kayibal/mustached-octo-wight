@@ -1,11 +1,11 @@
 package drivenow.interfaces;
 
 /**
- * 
+ *
  * Interface fuer die Verwaltung von Drivenow.
- * 
+ *
  * Dieses Interface darf nicht veraendert werden.
- * 
+ *
  * @author daniel
  */
 public interface IDrivenow {
@@ -13,21 +13,21 @@ public interface IDrivenow {
 	/**
 	 * Diese Methode liefert Ihre Gruppennummer (inkl. Tutoriumsnummer) in der
 	 * Form "Txx-yy" zurueck.
-	 * 
+	 *
 	 * @return Ihre Gruppennummer (inkl. Tutoriumsnummer) in der Form "Txx-yy"
 	 */
 	public String getGruppenNummer();
 
 	/**
 	 * Diese Methode liefert das Objekt der FahrlehrerinBoundary.
-	 * 
+	 *
 	 * @return Die IFahrlehrerinBoundary Ihrer Implementierung
 	 */
 	public IFahrlehrerinBoundary getFahrlehrerinBoundary();
 
 	/**
 	 * Diese Methode liefert das Objekt der SekretaerBoundary.
-	 * 
+	 *
 	 * @return Die ISekretaerBoundary Ihrer Implementierung
 	 */
 	public ISekretaerBoundary getSekretaerBoundary();

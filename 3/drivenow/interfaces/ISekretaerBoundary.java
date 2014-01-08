@@ -134,7 +134,7 @@ public interface ISekretaerBoundary {
 	 *         ueber Fehlschlag durch nicht verfuegbare Fahrlehrerin.
 	 */
 	public Systemereignis fahrstundeEintragen(String schuelerID,
-			Stundenart art, Date beginn, int anzahl);
+	                                          Stundenart art, Date beginn, int anzahl);
 
 	/**
 	 * Diese Methode vermerkt den Besuch einer Theoriestunde fuer einen
@@ -233,7 +233,7 @@ public interface ISekretaerBoundary {
 	 *         oder nicht genug besuchte Sonderstunden.
 	 */
 	public Systemereignis theoriepruefungszulassungUeberpruefen(
-			String schuelerID);
+	    String schuelerID);
 
 	/**
 	 * Diese Methode traegt ein, dass ein Fahrschueler die Theoriepruefung
