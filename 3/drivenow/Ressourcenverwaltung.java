@@ -6,11 +6,13 @@ public class Ressourcenverwaltung {
 	private ArrayList<Fahrlehrerindaten> fahrlehrerinnen;
 	private ArrayList<Auto> autos;
 	private ArrayList<Theoriestunde> tsdata;
+	private ArrayList<Fahrschueler> schueler;
 
 	public Ressourcenverwaltung() {
 		fahrlehrerinnen = new ArrayList<Fahrlehrerindaten>();
 		autos = new ArrayList<Auto>();
 		tsdata = new ArrayList<Theoriestunde>();
+		schueler = new ArrayList<Fahrschueler>();
 	}
 
 	/**
@@ -36,5 +38,12 @@ public class Ressourcenverwaltung {
 	 */
 	public void addAuto(Auto a) {
 		autos.add(a);
+	}
+	
+	/**
+	 * Fertigen Fahrschueler hinzufuegen
+	 */
+	public void addSchueler(Fahrschueler s){
+		this.schueler.add(s);
 	}
 }

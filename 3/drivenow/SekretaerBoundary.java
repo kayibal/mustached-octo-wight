@@ -6,6 +6,7 @@ import drivenow.interfaces.ISekretaerBoundary;
 import drivenow.interfaces.ISekretaerBoundary.Stundenart;
 
 public class SekretaerBoundary implements ISekretaerBoundary {
+	
 	private Ressourcenverwaltung rv;
 
 	public SekretaerBoundary(Ressourcenverwaltung prv) {
